@@ -1,0 +1,139 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+.flex-item {
+  -webkit-box-flex: 10%;
+      -ms-flex: 10%;
+          flex: 10%;
+}
+
+.flex-container-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 700;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+
+.image {
+  overflow: hidden;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  background-color: black;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 3px;
+  position: relative;
+  margin-top: -12vh;
+}
+
+.image img:hover {
+  opacity: 30%;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.shapes {
+  -webkit-box-flex: 5%;
+      -ms-flex: 5%;
+          flex: 5%;
+}
+
+.text {
+  padding-left: 5%;
+  padding-right: 5%;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.text p {
+  color: #b3b3b3;
+  font-size: 15px;
+}
+
+.text h2 {
+  margin-top: 1%;
+  font-weight: 900;
+  color: #30373d;
+}
+
+.box {
+  height: 410px;
+  width: 585px;
+  -webkit-box-shadow: 5px 5px 20px #dadada;
+          box-shadow: 5px 5px 20px #dadada;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.circle {
+  height: 12px;
+  width: 12px;
+  margin-left: 5%;
+  margin-top: 3%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circleBlue {
+  background-color: #03bbd3;
+}
+
+.circleYellow {
+  background-color: #fec107;
+  margin-left: 1%;
+}
+
+.overlay {
+  width: 585px;
+  height: 205px;
+  position: absolute;
+  color: white;
+}
+
+.overlay h2 {
+  text-align: center;
+  padding-top: 12%;
+  font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    height: 410px;
+    width: 80vw;
+    margin-left: 10vw;
+    -webkit-box-shadow: 5px 5px 20px #dadada;
+            box-shadow: 5px 5px 20px #dadada;
+    border-radius: 3px;
+    margin-bottom: 30px;
+  }
+  .overlay {
+    width: 80vw;
+  }
+  .overlay h2 {
+    padding-top: 61.5px;
+  }
+}
+/*# sourceMappingURL=Box.css.map */
