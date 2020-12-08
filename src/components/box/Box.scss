@@ -33,7 +33,7 @@
         margin-top: -12vh;
 
         &:hover {
-            opacity: 30%;
+            opacity: 0.3;
             transition: opacity .5s;
         }
     }
@@ -103,25 +103,65 @@
     }
 }
 
-
+// smaller screens
 @media only screen and (max-width: 1200px) {
     .box {
         height: $containerHeight;
-        // height: 40vh;
         width: 80vw;
         margin-left: 10vw;
         box-shadow: 5px 5px 20px #dadada;
         border-radius: 3px;
-        // border: 2px solid black;
         margin-bottom: 30px;
     }
 
     .overlay {
 
-        width: 80vw;;
+        width: 80vw;
+    
+        h2 {
+            padding-top: $containerHeight * 0.15;
+            text-align: center;
+        }
+    }
+  }
+
+// mobile and tablet
+@media only screen and (max-width: 768px) {
+
+    .box {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .overlay {
+
+        width: 100vw;;
     
         h2 {
             padding-top: $containerHeight * 0.15;
         }
     }
-  }
+
+    .text {
+        flex: 30%;
+        p {
+            color: #b3b3b3;
+            font-size: 13px;
+        }
+    
+        h2 {
+            font-size: 15px;
+        }
+    }
+    
+    .image {
+        img {
+            margin-top: 0vh;
+            width: 100%;
+        }
+    }
+
+    .flex-container-row {
+        font-size: 12px;
+    }
+}

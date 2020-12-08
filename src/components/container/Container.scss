@@ -15,5 +15,16 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 50%;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box-container {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }
