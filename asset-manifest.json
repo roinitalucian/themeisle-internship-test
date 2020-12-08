@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/themeisle-internship-test/static/css/main.dab36755.chunk.css",
+    "main.css": "/themeisle-internship-test/static/css/main.42173f40.chunk.css",
     "main.js": "/themeisle-internship-test/static/js/main.d736fbd1.chunk.js",
     "main.js.map": "/themeisle-internship-test/static/js/main.d736fbd1.chunk.js.map",
     "runtime-main.js": "/themeisle-internship-test/static/js/runtime-main.94459d76.js",
@@ -10,13 +10,13 @@
     "static/js/3.1cee64b0.chunk.js": "/themeisle-internship-test/static/js/3.1cee64b0.chunk.js",
     "static/js/3.1cee64b0.chunk.js.map": "/themeisle-internship-test/static/js/3.1cee64b0.chunk.js.map",
     "index.html": "/themeisle-internship-test/index.html",
-    "static/css/main.dab36755.chunk.css.map": "/themeisle-internship-test/static/css/main.dab36755.chunk.css.map",
+    "static/css/main.42173f40.chunk.css.map": "/themeisle-internship-test/static/css/main.42173f40.chunk.css.map",
     "static/js/2.e4f5e541.chunk.js.LICENSE.txt": "/themeisle-internship-test/static/js/2.e4f5e541.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.94459d76.js",
     "static/js/2.e4f5e541.chunk.js",
-    "static/css/main.dab36755.chunk.css",
+    "static/css/main.42173f40.chunk.css",
     "static/js/main.d736fbd1.chunk.js"
   ]
 }
